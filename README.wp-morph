@@ -1,0 +1,68 @@
+README for WP-Morph
+-------------------
+
+WP-Morph is an anti-spam plugin for WordPress. Features:
+
+* No capcha. The user don't have to enter any additional code.
+* JavaScript support required in the browser.
+* Spammers would have to interpret the JavaScript in the page to
+  be able to submit comments. As far as I know, no one spammer in the
+  world process a page including the JavaScript.
+
+Installation
+------------
+
+* Download the lattest version of the plugin from here: 
+  http://dev.wp-plugins.org/browser/wp-morph/trunk/
+* Copy wp-morph.php in the WordPress plugin directory (normally
+  WP-ROOT/wp-content/plugins/ ).
+* Go to the "Plugins" menu of the WordPress Admin console.
+* Activate the "WP-Morph" plugin.
+
+That's it!! Bye, bye, spam!!
+
+Change Log
+----------
+
+v1.6:
+* Adapt the plugin to PHP5.
+
+v1.5:
+* Act only on comments. Neither trackbacks nor pingbacks.
+
+v1.4:
+* Adapted to WprdPress 2.0. Minor changes.
+
+v1.3:
+* Documento is now XHTML valid (Thanks to Will http://www.willsdownloads.com/blog/
+  for suggesting this).
+
+v1.2:
+* More kind error message.
+* rnd_val is calculated automatically and stored in wp's internal 
+  database. No user interaction or configuration is needed now.
+  (Thanks to Denis de Bernardy <denis.at.semiologic.com> for suggesting 
+  this.)
+* Little change in the javascript code in order to prevent possible
+  overflows.
+
+v1.1:
+* Improved the generation of the values. Now forms expire at some
+  user-configured time.
+* Show that the form is protected using WP-Morph.
+
+v1.0:
+* Initial release.
+
+Info
+----
+
+For more info, please visit:
+
+http://neuromancer.dif.um.es/blog/index.php?s=wp-morph&submit=Search
+
+Thanks!
+diego.
+
+(For feedback/comments, please send an e-mail to: dsevilla@um.es ).
+
